@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink-950 text-gray-100 font-sans antialiased;
+  }
+  ::selection {
+    @apply bg-neon-500/40 text-white;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 18px rgba(0, 230, 179, 0.55);
+  }
+  .text-glow-volt {
+    text-shadow: 0 0 18px rgba(125, 255, 0, 0.55);
+  }
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(0, 230, 179, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 230, 179, 0.06) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  .clip-slant {
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+  }
+}
