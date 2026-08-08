@@ -67,7 +67,7 @@ export const games: Game[] = [
     rating: 4.6,
     players: '3.1M',
     image: 'https://images.pexels.com/photos/167964/pexels-photo-167964.jpeg?auto=compress&cs=tinysrgb&w=800',
-    accent: 'neon',
+    accent: 'cyan',
     tags: ['Squad', 'Solo', 'Ranked'],
   },
   {
@@ -77,7 +77,7 @@ export const games: Game[] = [
     rating: 4.5,
     players: '640K',
     image: 'https://images.pexels.com/photos/2693208/pexels-photo-2693208.jpeg?auto=compress&cs=tinysrgb&w=800',
-    accent: 'magenta',
+    accent: 'orange',
     tags: ['RTS', 'Ranked', '1v1'],
   },
   {
@@ -87,7 +87,7 @@ export const games: Game[] = [
     rating: 4.8,
     players: '1.2M',
     image: 'https://images.pexels.com/photos/3761262/pexels-photo-3761262.jpeg?auto=compress&cs=tinysrgb&w=800',
-    accent: 'volt',
+    accent: 'blue',
     tags: ['1v1', 'Tournament', 'Casual'],
   },
 ];
